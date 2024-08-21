@@ -51,7 +51,8 @@ with st.sidebar:
     
     left, center, right = st.columns(3)
     with center:
-        st.image('RB_logo.png', width=75)
+        # st.image('RB_logo.png', width=75)
+        st.write(os.getcwd())
             
     # with credits: # ไปทำ canva
     #     st.markdown('')
