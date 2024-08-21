@@ -27,6 +27,11 @@ def call_llm(TYPHOON_API_KEY, model, max_tokens, temperature, top_p, user_input)
                         1.Hologram การสะท้อนของแสง
                         2.Board Game การแยกขยะ
                         
+                    บ​ูธ ม.4/2, 5/2, 6/2
+                        1.RB Information Chatbot
+                        2.Micribit
+                        3.VR
+                        
                     บูธ ม.4/4
                         1.บิงโก ตารางธาตุ
                         
