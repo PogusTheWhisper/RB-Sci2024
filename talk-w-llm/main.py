@@ -45,16 +45,20 @@ def call_llm(TYPHOON_API_KEY, model, max_tokens, temperature, top_p, user_input)
 
 # Sidebar configuration
 with st.sidebar:
-    logo, credits = st.columns(2)
-    with logo:
-        st.image('./RB_logo.png', width=75)
+    # logo, credits = st.columns(2)
+    # with logo:
+    #     st.image('./RB_logo.png', width=75)
+    
+    left, center, right = st.columns(3)
+    with center:
+        st.image('./RB_logo.png', width=75, )
             
     # with credits: # ไปทำ canva
     #     st.markdown('')
     #     st.markdown('จัดทำโดย ม.6 แผนการเรียนเตรียมวิศวะหุ่นยนต์')
         
     # st.markdown('แชทบอทสำหรับการสอบถามข้อมูลทั่วไปต่างๆภายในโรงเรียนวัดราชบพิธ')
-    st.sidebar.title("Config")
+    st.title("Config")
     
     # Input fields
     typhoon_api_key = st.text_input(
