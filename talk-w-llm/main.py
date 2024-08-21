@@ -35,6 +35,9 @@ def call_llm(TYPHOON_API_KEY, model, max_tokens, temperature, top_p, user_input)
                     บูธ ม.4/4
                         1.บิงโก ตารางธาตุ
                         
+                    บูธ ม.6/3
+                        1.ขายน้ำอัญชัญมนาว
+                        
                     บูธ ม.4/1
                         1.ขายน้ำ
                         2.ขายหม่าล่า
